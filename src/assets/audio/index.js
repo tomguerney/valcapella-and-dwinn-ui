@@ -1,0 +1,5 @@
+export const track1 = require('./V_AND_D_Track_1.mp3')
+export const track2 = require('./V_AND_D_Track_2.mp3')
+export const track3 = require('./V_AND_D_Track_3.mp3')
+export const track4 = require('./V_AND_D_Track_4.mp3')
+export const track5 = require('./V_AND_D_Track_5.mp3')

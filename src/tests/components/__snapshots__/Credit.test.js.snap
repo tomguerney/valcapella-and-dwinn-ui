@@ -1,0 +1,28 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should render Credit correctly 1`] = `
+<WithStyles(ForwardRef(Container))
+  style={
+    Object {
+      "paddingBottom": 10,
+      "paddingTop": 5,
+    }
+  }
+>
+  <WithStyles(ForwardRef(Typography))
+    align="center"
+    style={
+      Object {
+        "fontFamily": "Alegreya Sans SC",
+      }
+    }
+  >
+    Written and Narrated by
+  </WithStyles(ForwardRef(Typography))>
+  <WithStyles(ForwardRef(Typography))
+    align="center"
+  >
+    Thomas Benjamin Guerney
+  </WithStyles(ForwardRef(Typography))>
+</WithStyles(ForwardRef(Container))>
+`;

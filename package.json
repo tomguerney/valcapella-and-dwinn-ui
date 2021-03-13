@@ -1,0 +1,45 @@
+{
+  "name": "valcapella-and-dwinn",
+  "version": "1.0.0",
+  "description": "Valcapella and Dwinn",
+  "main": "index.js",
+  "author": "Tom Guerney",
+  "license": "MIT",
+  "scripts": {
+    "serve": "live-server build/",
+    "build:dev": "webpack",
+    "build:prod": "webpack -p --env production",
+    "dev-server": "webpack-dev-server",
+    "test": "jest --runInBand"
+  },
+  "dependencies": {
+    "@babel/core": "^7.6.4",
+    "@babel/plugin-proposal-class-properties": "^7.5.5",
+    "@babel/preset-env": "^7.6.3",
+    "@babel/preset-react": "^7.6.3",
+    "@material-ui/core": "^4.9.7",
+    "@material-ui/icons": "^4.9.1",
+    "aws-sdk": "^2.656.0",
+    "babel-cli": "^6.26.0",
+    "babel-jest": "^25.3.0",
+    "babel-loader": "^8.0.6",
+    "copy-webpack-plugin": "^5.1.1",
+    "enzyme": "^3.11.0",
+    "enzyme-adapter-react-16": "^1.15.2",
+    "enzyme-to-json": "^3.4.4",
+    "file-loader": "^6.0.0",
+    "jest": "^25.3.0",
+    "jest-enzyme": "^7.1.2",
+    "live-server": "^1.2.1",
+    "react": "^16.11.0",
+    "react-dom": "^16.11.0",
+    "typeface-alegreya-sans-sc": "^0.0.75",
+    "typeface-montserrat": "^0.0.75",
+    "url-loader": "^4.1.0",
+    "webpack": "^4.41.2",
+    "webpack-dev-server": "^3.9.0"
+  },
+  "devDependencies": {
+    "webpack-cli": "^3.3.10"
+  }
+}

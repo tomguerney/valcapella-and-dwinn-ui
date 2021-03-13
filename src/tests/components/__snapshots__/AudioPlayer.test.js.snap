@@ -1,0 +1,73 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should render AudioPlayer correctly 1`] = `
+<Fragment>
+  <audio
+    onDurationChange={[Function]}
+    onEnded={[Function]}
+    onPlaying={[Function]}
+    onTimeUpdate={[Function]}
+    onWaiting={[Function]}
+  />
+  <table
+    style={
+      Object {
+        "paddingBottom": 15,
+        "width": "100%",
+      }
+    }
+  >
+    <tbody>
+      <tr>
+        <td
+          style={
+            Object {
+              "maxWidth": "80px",
+              "mindWidth": "80px",
+              "paddingLeft": 15,
+              "paddingRight": 15,
+              "width": "80px",
+            }
+          }
+        >
+          <WithStyles(ForwardRef(Button))
+            onClick={[Function]}
+            style={
+              Object {
+                "backgroundColor": "#C8DEF4",
+                "minHeight": 45,
+                "minWidth": 60,
+              }
+            }
+            variant="outlined"
+          >
+            <PlayStatusIcon
+              isLoading={false}
+              isPlaying={false}
+            />
+          </WithStyles(ForwardRef(Button))>
+        </td>
+        <td
+          style={
+            Object {
+              "paddingLeft": 15,
+              "paddingRight": 15,
+            }
+          }
+        >
+          <WithStyles(ForwardRef(Grid))
+            container={true}
+            justify="center"
+          >
+            <WithStyles(WithStyles(ForwardRef(Slider)))
+              max={0}
+              onChange={[Function]}
+              value={0}
+            />
+          </WithStyles(ForwardRef(Grid))>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+</Fragment>
+`;

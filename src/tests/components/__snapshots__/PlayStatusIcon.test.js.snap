@@ -1,0 +1,19 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should render PlayStatusIcon with circular progress 1`] = `
+<WithStyles(ForwardRef(CircularProgress))
+  size={20}
+/>
+`;
+
+exports[`should render PlayStatusIcon with pause image 1`] = `
+<PauseIcon
+  className="makeStyles-root-1"
+/>
+`;
+
+exports[`should render PlayStatusIcon with play arrow image 1`] = `
+<PlayArrowIcon
+  className="makeStyles-root-1"
+/>
+`;

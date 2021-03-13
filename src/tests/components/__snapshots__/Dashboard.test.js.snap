@@ -1,0 +1,66 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should render Dashboard correctly 1`] = `
+<Fragment>
+  <WithStyles(CssBaseline) />
+  <WithStyles(ForwardRef(Container))
+    maxWidth="sm"
+    style={
+      Object {
+        "textAlign": "center",
+      }
+    }
+  >
+    <img
+      src="test-file-stub"
+      style={
+        Object {
+          "marginTop": 30,
+          "width": "100%",
+        }
+      }
+    />
+    <Track
+      audioSource="test-file-stub"
+      backgroundImage="test-file-stub"
+      id="track1"
+      onTrackSelected={[Function]}
+      openTrackId="notrack"
+      title="Act 1"
+    />
+    <Track
+      audioSource="test-file-stub"
+      backgroundImage="test-file-stub"
+      id="track2"
+      onTrackSelected={[Function]}
+      openTrackId="notrack"
+      title="Act 2"
+    />
+    <Track
+      audioSource="test-file-stub"
+      backgroundImage="test-file-stub"
+      id="track3"
+      onTrackSelected={[Function]}
+      openTrackId="notrack"
+      title="Act 3"
+    />
+    <Track
+      audioSource="test-file-stub"
+      backgroundImage="test-file-stub"
+      id="track4"
+      onTrackSelected={[Function]}
+      openTrackId="notrack"
+      title="Act 4"
+    />
+    <Track
+      audioSource="test-file-stub"
+      backgroundImage="test-file-stub"
+      id="track5"
+      onTrackSelected={[Function]}
+      openTrackId="notrack"
+      title="Act 5"
+    />
+    <LinerNotes />
+  </WithStyles(ForwardRef(Container))>
+</Fragment>
+`;

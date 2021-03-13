@@ -1,0 +1,79 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should render Track collapsed correctly 1`] = `
+<WithStyles(ForwardRef(Card))
+  style={
+    Object {
+      "backgroundImage": "url(background_image.png)",
+      "backgroundSize": "cover",
+      "margin": 20,
+    }
+  }
+>
+  <WithStyles(ForwardRef(CardActionArea))
+    disableRipple={true}
+    onClick={[Function]}
+  >
+    <WithStyles(ForwardRef(Typography))
+      align="center"
+      component="h1"
+      style={
+        Object {
+          "fontFamily": "cinzel decorative",
+          "padding": 30,
+        }
+      }
+      variant="h2"
+    >
+      Act 1
+    </WithStyles(ForwardRef(Typography))>
+  </WithStyles(ForwardRef(CardActionArea))>
+  <WithStyles(ForwardRef(Collapse))
+    in={false}
+  >
+    <AudioPlayer
+      audioHidden={true}
+      audioSource="audio_source.mp3"
+    />
+  </WithStyles(ForwardRef(Collapse))>
+</WithStyles(ForwardRef(Card))>
+`;
+
+exports[`should render Track expanded correctly 1`] = `
+<WithStyles(ForwardRef(Card))
+  style={
+    Object {
+      "backgroundImage": "url(background_image.png)",
+      "backgroundSize": "cover",
+      "margin": 20,
+    }
+  }
+>
+  <WithStyles(ForwardRef(CardActionArea))
+    disableRipple={true}
+    onClick={[Function]}
+  >
+    <WithStyles(ForwardRef(Typography))
+      align="center"
+      component="h1"
+      style={
+        Object {
+          "fontFamily": "cinzel decorative",
+          "padding": 30,
+        }
+      }
+      variant="h2"
+    >
+      Act 1
+    </WithStyles(ForwardRef(Typography))>
+  </WithStyles(ForwardRef(CardActionArea))>
+  <WithStyles(ForwardRef(Collapse))
+    in={true}
+  >
+    <AudioPlayer
+      audioHidden={false}
+      audioSource="audio_source.mp3"
+    />
+  </WithStyles(ForwardRef(Collapse))>
+</WithStyles(ForwardRef(Card))>
+`;

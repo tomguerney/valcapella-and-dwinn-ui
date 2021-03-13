@@ -1,0 +1,15 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should render AudioSlider correctly 1`] = `
+<WithStyles(ForwardRef(Slider))
+  classes={
+    Object {
+      "active": "WithStyles(ForwardRef(Slider))-active-3",
+      "rail": "WithStyles(ForwardRef(Slider))-rail-5",
+      "root": "WithStyles(ForwardRef(Slider))-root-1",
+      "thumb": "WithStyles(ForwardRef(Slider))-thumb-2",
+      "track": "WithStyles(ForwardRef(Slider))-track-4",
+    }
+  }
+/>
+`;
